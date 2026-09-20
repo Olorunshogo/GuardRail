@@ -33,3 +33,13 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .vercel
+
+# === AI agent / editor tool directories
+.claude/
+.cursor/
+.kiro/
+.kilo/
+.agents/
+.zed/
+.windsurf/
+.continue/

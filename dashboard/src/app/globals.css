@@ -7,7 +7,7 @@
   `border-red/40`, `bg-bg/90`, ...) needs an `-rgb` triplet alongside its hex value.
   Tailwind can only apply `/NN` to a color function it can inject an alpha channel into
   (`rgba(var(--x-rgb), NN)`); it silently drops the modifier, no CSS rule at all, for a
-  color that's just `var(--x)`. tailwind.config.js's `withOpacity()` reads these.
+  color that's just `var(--x)`. tailwind.config.cjs's `withOpacity()` reads these.
 */
 :root,
 .dark {
@@ -94,7 +94,7 @@
   writes `px-section-px py-section-py` once instead of repeating a px-4 sm:px-6 lg:px-8
   ladder everywhere, and changing the page gutter is a one-line edit here.
 
-  Values come from theme() and breakpoints from @screen, so tailwind.config.js stays the
+  Values come from theme() and breakpoints from @screen, so tailwind.config.cjs stays the
   single source of truth. No pixel or rem literal is duplicated into this file.
 */
 @layer base {

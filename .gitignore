@@ -34,3 +34,13 @@ test-project/
 # Ignored Files
 # docs/Screens/
 .vercel
+
+# === AI agent / editor tool directories
+.claude/
+.cursor/
+.kiro/
+.kilo/
+.agents/
+.zed/
+.windsurf/
+.continue/

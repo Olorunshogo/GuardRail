@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "eth-agent": {
-      "command": "npm",
-      "args": ["run", "-s", "mcp"]
-    }
-  }
-}

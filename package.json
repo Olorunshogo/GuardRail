@@ -2,6 +2,33 @@
   "name": "eth-agent",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
+  "description": "Autonomous AI agent wallet framework for EVM chains. Connects an AI assistant to an on-chain AgentWallet with enforced spending limits, whitelisting and guardian controls.",
+  "keywords": [
+    "ai-agent",
+    "wallet",
+    "evm",
+    "mcp",
+    "ethereum",
+    "bot-chain",
+    "solidity",
+    "smart-contracts",
+    "spending-limits",
+    "monorepo"
+  ],
+  "author": "GuardRail Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olorunshogo/GuardRail.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Olorunshogo/GuardRail/issues"
+  },
+  "homepage": "https://github.com/Olorunshogo/GuardRail#readme",
+  "engines": {
+    "node": ">=24"
+  },
   "workspaces": [
     "runtime",
     "dashboard",

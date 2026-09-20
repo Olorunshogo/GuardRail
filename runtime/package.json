@@ -1,8 +1,31 @@
 {
   "name": "runtime",
   "version": "1.0.0",
-  "description": "",
+  "private": true,
   "type": "module",
+  "description": "MCP server that lets an AI assistant operate an on-chain AgentWallet within enforced spending policy.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agent",
+    "wallet",
+    "evm",
+    "viem"
+  ],
+  "author": "GuardRail Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olorunshogo/GuardRail.git",
+    "directory": "runtime"
+  },
+  "bugs": {
+    "url": "https://github.com/Olorunshogo/GuardRail/issues"
+  },
+  "homepage": "https://github.com/Olorunshogo/GuardRail/tree/HEAD/runtime#readme",
+  "engines": {
+    "node": ">=24"
+  },
   "main": "dist/mcp-server.js",
   "scripts": {
     "build": "tsc",
@@ -20,9 +43,6 @@
     "check-pending": "tsx src/check-pending.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@types/cors": "^2.8.0",
     "@types/express": "^4.17.0",

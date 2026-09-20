@@ -18,3 +18,13 @@ docs/
 .env
 .env.*
 !.env.example
+
+# === AI agent / editor tool directories
+.claude/
+.cursor/
+.kiro/
+.kilo/
+.agents/
+.zed/
+.windsurf/
+.continue/

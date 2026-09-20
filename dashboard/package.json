@@ -2,6 +2,30 @@
   "name": "eth-agent-dashboard",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
+  "description": "Next.js dashboard for the AgentWallet smart contract on BOT Chain: balances, spending limits, whitelist and guardian controls.",
+  "keywords": [
+    "dashboard",
+    "nextjs",
+    "wagmi",
+    "viem",
+    "bot-chain",
+    "agent-wallet"
+  ],
+  "author": "GuardRail Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olorunshogo/GuardRail.git",
+    "directory": "dashboard"
+  },
+  "bugs": {
+    "url": "https://github.com/Olorunshogo/GuardRail/issues"
+  },
+  "homepage": "https://github.com/Olorunshogo/GuardRail/tree/HEAD/dashboard#readme",
+  "engines": {
+    "node": ">=24"
+  },
   "scripts": {
     "predev": "npm --prefix ../runtime install && npm --prefix ../runtime run build && rm -rf .agent-runtime && cp -r ../runtime/dist .agent-runtime",
     "dev": "next dev",
